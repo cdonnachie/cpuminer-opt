@@ -513,7 +513,6 @@ enum algos {
         ALGO_PENTABLAKE,  
         ALGO_PLUCK,       
         ALGO_QUARK,
-        ALGO_QUBIT,       
         ALGO_SCRYPT,
         ALGO_SCRYPTJANE,
         ALGO_SHA256D,
@@ -568,7 +567,6 @@ static const char* const algo_names[] = {
         "pentablake",
         "pluck",
         "quark",
-        "qubit",
         "scrypt",
         "scryptjane",
         "sha256d",
@@ -679,7 +677,6 @@ Options:\n\
                           pentablake   5 x blake512\n\
                           pluck        Pluck:128 (Supcoin)\n\
                           quark        Quark\n\
-                          qubit        Qubit\n\
                           scrypt       scrypt(1024, 1, 1) (default)\n\
                           scrypt:N     scrypt(N, 1, 1)\n\
                           scryptjane:nf\n\
