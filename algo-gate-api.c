@@ -183,8 +183,10 @@ bool register_algo_gate( int algo, algo_gate_t *gate )
      case ALGO_MYR_GR:       register_myriad_algo      ( gate ); break;
      case ALGO_NEOSCRYPT:    register_neoscrypt_algo   ( gate ); break;
      case ALGO_NIST5:        register_nist5_algo       ( gate ); break;
+     case ALGO_ODO:          register_odo_algo         ( gate ); break;
      case ALGO_PENTABLAKE:   register_pentablake_algo  ( gate ); break;
      case ALGO_PLUCK:        register_pluck_algo       ( gate ); break;
+     case ALGO_QUBIT:        register_qubit_algo       ( gate ); break;     
      case ALGO_QUARK:        register_quark_algo       ( gate ); break;
      case ALGO_SCRYPT:       register_scrypt_algo      ( gate ); break;
      case ALGO_SCRYPTJANE:   register_scryptjane_algo  ( gate ); break;

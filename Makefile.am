@@ -128,6 +128,12 @@ cpuminer_SOURCES = \
   algo/quark/quark-gate.c \
   algo/quark/quark.c \
   algo/quark/quark-4way.c \
+  algo/qubit/qubit-gate.c \
+  algo/qubit/qubit.c \
+  algo/qubit/qubit-2way.c \
+  algo/qubit/deep-gate.c \
+  algo/qubit/deep-2way.c \
+  algo/qubit/deep.c \
   algo/ripemd/sph_ripemd.c \
   algo/scrypt.c \
   algo/scryptjane/scrypt-jane.c \
@@ -164,7 +170,10 @@ cpuminer_SOURCES = \
   algo/yespower/yespower-blake2b.c \
   algo/yespower/crypto/blake2b-yp.c \
   algo/yespower/sha256_p.c \
-  algo/yespower/yespower-opt.c
+  algo/yespower/yespower-opt.c \
+  algo/odo/odo.cpp \
+  algo/odo/odocrypt.cpp \
+  algo/odo/KeccakP-800-reference.cpp
 
 disable_flags =
 

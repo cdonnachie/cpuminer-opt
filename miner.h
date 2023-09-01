@@ -509,9 +509,11 @@ enum algos {
         ALGO_MYR_GR,      
         ALGO_NEOSCRYPT,
         ALGO_NIST5,       
+        ALGO_ODO,
         ALGO_PENTABLAKE,  
         ALGO_PLUCK,       
         ALGO_QUARK,
+        ALGO_QUBIT,       
         ALGO_SCRYPT,
         ALGO_SCRYPTJANE,
         ALGO_SHA256D,
@@ -562,9 +564,11 @@ static const char* const algo_names[] = {
         "myr-gr",
         "neoscrypt",
         "nist5",
+        "odo",        
         "pentablake",
         "pluck",
         "quark",
+        "qubit",
         "scrypt",
         "scryptjane",
         "sha256d",
@@ -671,9 +675,11 @@ Options:\n\
                           myr-gr       Myriad-Groestl\n\
                           neoscrypt    NeoScrypt(128, 2, 1)\n\
                           nist5        Nist5\n\
+                          odo          odocrypt\n\                          
                           pentablake   5 x blake512\n\
                           pluck        Pluck:128 (Supcoin)\n\
                           quark        Quark\n\
+                          qubit        Qubit\n\
                           scrypt       scrypt(1024, 1, 1) (default)\n\
                           scrypt:N     scrypt(N, 1, 1)\n\
                           scryptjane:nf\n\
