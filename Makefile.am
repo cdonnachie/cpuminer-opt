@@ -130,9 +130,7 @@ cpuminer_SOURCES = \
   algo/quark/quark-4way.c \
   algo/qubit/qubit-gate.c \
   algo/qubit/qubit.c \
-  algo/qubit/qubit-2way.c \
   algo/qubit/deep-gate.c \
-  algo/qubit/deep-2way.c \
   algo/qubit/deep.c \
   algo/ripemd/sph_ripemd.c \
   algo/scrypt.c \

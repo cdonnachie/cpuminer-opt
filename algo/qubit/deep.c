@@ -6,8 +6,8 @@
 #include <stdint.h>
 #include <string.h>
 #include <stdio.h>
-#include "algo/luffa/luffa_for_sse2.h" 
-#include "algo/cubehash/cubehash_sse2.h" 
+#include "algo/luffa/sse2/luffa_for_sse2.h" 
+#include "algo/cubehash/sse2/cubehash_sse2.h" 
 #ifdef __AES__
 #include "algo/echo/aes_ni/hash_api.h"
 #else
